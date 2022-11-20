@@ -1,0 +1,526 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!----------------- www.hyipcustomize.com ----------->
+    <meta name="designer" href="https://hyipcustomize.com/">
+    
+    <title>gainprolific.com</title>
+    <link rel="icon" href="styles/images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="styles/animate.css" rel="stylesheet" type="text/css">
+    <link href="styles/hover.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+    <link href="styles/custom.css" rel="stylesheet" type="text/css">
+    <link href="styles/custom-home.css?v2" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="styles/setting2.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="styles/wow.min.js"></script>
+    <script src="styles/jquery.min.js"></script>
+    <script src="styles/owl.carousel.js"></script>
+    
+    <script type="text/javascript">
+    //// Get the CryptoCurrency Information from the API
+    jQuery.ajax({
+        url: "https://min-api.cryptocompare.com/data/pricemultifull",
+        data: "fsyms=BTC,ETH,DASH,LTC,XRP,DOGE,XMR,BCH,XLM&tsyms=USD",
+        dataType : 'json',
+    }).done(function(data) 
+    {
+        // console.log( "BTC : " + data.RAW.BTC.USD.CHANGEPCTDAY + ", ETH : " + data.RAW.ETH.USD.CHANGEPCTDAY + ", DASH : " + data.RAW.DASH.USD.CHANGEPCTDAY + ", DOGE : " + data.RAW.DOGE.USD.CHANGEPCTDAY + ", LTC : " + data.RAW.LTC.USD.CHANGEPCTDAY + ", XRP : " + data.RAW.XRP.USD.CHANGEPCTDAY );
+        //	console.log( "BTC : " + parseFloat(data.RAW.BTC.USD.CHANGEPCTDAY).toFixed(2) + ", ETH : " + parseFloat(data.RAW.ETH.USD.CHANGEPCTDAY).toFixed(2) + ", DASH : " + parseFloat(data.RAW.DASH.USD.CHANGEPCTDAY).toFixed(2) + ", LTC : " + parseFloat(data.RAW.LTC.USD.CHANGEPCTDAY).toFixed(2) + ", DOGE : " + parseFloat(data.RAW.DOGE.USD.CHANGEPCTDAY).toFixed(2) + ", XRP : " + parseFloat(data.RAW.XRP.USD.CHANGEPCTDAY).toFixed(2) );
+    
+        jQuery(".dashCoin").html('$' + data.RAW.DASH.USD.PRICE);
+        jQuery(".ethCoin").html('$' + data.RAW.ETH.USD.PRICE);
+        jQuery(".bitCoin").html('$' + data.RAW.BTC.USD.PRICE);
+        jQuery(".liteCoin").html('$' + data.RAW.LTC.USD.PRICE);
+        jQuery(".xrpCoin").html('$' + data.RAW.XRP.USD.PRICE);
+        jQuery(".xmrCoin").html('$' + data.RAW.XMR.USD.PRICE);
+        jQuery(".bchCoin").html('$' + data.RAW.BCH.USD.PRICE);
+        jQuery(".xlmCoin").html('$' + data.RAW.XLM.USD.PRICE);
+        jQuery(".dogeCoin").html('$' + data.RAW.XLM.USD.PRICE);
+    
+    
+    });
+    
+    
+    </script></head>
+    
+    
+    
+     
+      
+    
+    
+              
+    
+    
+    
+    <body>
+        
+        
+    <section class="main_wrap">
+      <section class="bannerwrap bannerwrap_sub">
+          
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="headertopaction fadeInUp wow" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="acbox"><span>GAINPRO</span></div>
+                <div class="acbox"><figure><img src="styles/images/ukcompany.png" alt=""></figure>USA Company <span>13145968</span></div>
+                <div class="acbox"><figure><img src="styles/images/dunsicon.png" alt=""></figure>D-U-N-S Number: <span>22-76-23-739</span></div>
+                <div class="acbox"><figure><img src="styles/images/headeremailicon.png" alt=""></figure>E-mail: <span>gainprolificalprofit@gmail.com</span></div>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="widget"><!-- TradingView Widget BEGIN -->
+              <div class="tradingview-widget-container" style="width: 100%; height: 104px;">
+                <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22proName%22%3A%22FOREXCOM%3ANSXUSD%22%2C%22title%22%3A%22Nasdaq%20100%22%7D%2C%7B%22proName%22%3A%22FX_IDC%3AEURUSD%22%2C%22title%22%3A%22EUR%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22BTC%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22ETH%2FUSD%22%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A76%2C%22utm_source%22%3A%22gainprolific.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22ticker-tape%22%7D" style="box-sizing: border-box; height: 72px; width: 100%;"></iframe>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+                
+                
+                
+              <style>
+        .tradingview-widget-copyright {
+            font-size: 13px !important;
+            line-height: 32px !important;
+            text-align: center !important;
+            vertical-align: middle !important;
+            /* @mixin sf-pro-display-font; */
+            font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+            color: #9db2bd !important;
+        }
+    
+        .tradingview-widget-copyright .blue-text {
+            color: #2962FF !important;
+        }
+    
+        .tradingview-widget-copyright a {
+            text-decoration: none !important;
+            color: #9db2bd !important;
+        }
+    
+        .tradingview-widget-copyright a:visited {
+            color: #9db2bd !important;
+        }
+    
+        .tradingview-widget-copyright a:hover .blue-text {
+            color: #1E53E5 !important;
+        }
+    
+        .tradingview-widget-copyright a:active .blue-text {
+            color: #1848CC !important;
+        }
+    
+        .tradingview-widget-copyright a:visited .blue-text {
+            color: #2962FF !important;
+        }
+        </style></div>
+              <!-- TradingView Widget END --></div>
+          </div>
+        </div>	
+    
+    
+    <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="logo slideInUp wow" style="visibility: visible; animation-name: slideInUp;"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-12">
+            <nav class="nav_inside slideInUp wow" style="visibility: visible; animation-name: slideInUp;">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> </button>
+              <a class="navbar-brand page-scroll hide" href="#"><img src="styles/images/logo.png" alt=""></a>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="gainprolific.com.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="faq.html">Faq</a></li>
+                  <li><a href="start.html">Get Started</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                   <li><a href="rate.html">Rate Us</a></li>
+                   
+                     
+                    <li class="login"><a href="log in.html">Login</a></li>
+                  <li class="signup"><a href="singup.html">signup</a></li>
+                                  </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+    
+    
+        <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-box">Frequently Asked Questions</div>
+                </div>
+            </div>
+    
+    
+         </div>
+    </section>
+    
+    
+    
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    
+    
+    
+    
+    <section class="investment-faq-page">
+        <div class="container">
+             <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <ul class="nav nav-tabs" role="tablist">
+                         
+            <li role="presentation" class="active"><a href="#general" aria-controls="home" role="tab" data-toggle="tab">General</a></li>
+            <li role="presentation" class=""><a href="#technical" aria-controls="profile" role="tab" data-toggle="tab">Technical</a></li>
+            <li role="presentation" class=""><a href="#financial" aria-controls="profile" role="tab" data-toggle="tab">Financial</a></li>
+            <li role="presentation" class=""><a href="#affiliate" aria-controls="profile" role="tab" data-toggle="tab">Affiliate</a></li>
+                      </ul>
+                      
+                    </div>	
+                </div>	  
+                
+                 <div class="row">	  
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">	  
+                        
+                        
+                          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="general">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question1" aria-expanded="true" aria-controls="collapseOne" class=""> What are the gainprolific.com's activities? </a> </h4>
+                  </div>
+                  <div id="question1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                    <div class="panel-body"> gainprolific.com is engaged in trading activities on the on the crypto-currency market. The company's income is generated by successfully executed trades on the currency market. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question2" aria-expanded="false" aria-controls="collapseTwo"> Why does the company attract additional investments from private individuals?</a> </h4>
+                  </div>
+                  <div id="question2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 102px;">
+                    <div class="panel-body"> Additional investments will allow to increase the number of transactions executed on the currency market, and thus will increase the overall profitability of the company. Investors in turn will receive certain percentage of profit depending on the amount of funds invested. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3" aria-expanded="false" aria-controls="collapseThree"> What are the advantages of the gainprolific.com over competitors?</a> </h4>
+                  </div>
+                  <div id="question3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
+                    <div class="panel-body"> Our goal is not to conduct the tough competition, but to receive a stable profit on the crypto-currency market using our own strategy. We have developed special investment packages with optimum service plans and affiliate program for passive income for investors. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question4" aria-expanded="false" aria-controls="collapseThree"> What are the risks for gainprolific.com's investors?</a> </h4>
+                  </div>
+                  <div id="question4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 78px;">
+                    <div class="panel-body"> The risks for our investors are minimized due to the professional team and our experience. Each company's investor will receive a daily profit according to the terms of the investment plan that was chosen. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question5" aria-expanded="false" aria-controls="collapseThree"> What do I need in order to start?</a> </h4>
+                  </div>
+                  <div id="question5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 102px;">
+                    <div class="panel-body"> First, you should register on our web-site. The registration procedure is simple and will take just a few minutes. Fill all required fields in registration form, login to account, choose an optimum investment plan and deposit your account. After that you'll become an official investor of the gainprolific.com and will receive a profit according to the service plan chosen. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question6" aria-expanded="false" aria-controls="collapseThree"> Am I able to create multiple accounts on the web-site?</a> </h4>
+                  </div>
+                  <div id="question6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 54px;">
+                    <div class="panel-body"> No, the multiple registrations on the web-site are forbidden. A single user can create only one account. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end tab-->
+            <div role="tabpanel" class="tab-pane" id="technical">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question2-1" aria-expanded="true" aria-controls="collapseOne"> Do I need to pass the identity authentication procedure after the registration on the web-site?</a> </h4>
+                  </div>
+                  <div id="question2-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body"> No, the identity authentication is not required. However, we are looking for you consciousness and believe that you will provide authentic information about yourself. anyway , We keep the right to ask from our members anytime. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question2-2" aria-expanded="false" aria-controls="collapseTwo"> Can I change my personal data (login, password, e-mail etc.)?</a> </h4>
+                  </div>
+                  <div id="question2-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body"> Yes, you can change some of your personal data through the personal account by yourself but email for security reason isn't changeable. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question2-3" aria-expanded="false" aria-controls="collapseThree"> I forgot my account's password. What do I need to do?</a> </h4>
+                  </div>
+                  <div id="question2-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> You can recover a password using the automatic password recovery. You can also contact support. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question2-4" aria-expanded="false" aria-controls="collapseThree"> What is the security level of the company's web-site?</a> </h4>
+                  </div>
+                  <div id="question2-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> We use an expensive dedicated server which protects our web-site from any DDoS attack. Web-site is also provided with SSL Comodo - the high reliability certificate that provides the higher level of protection and security accreditation. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end tab-->
+            <div role="tabpanel" class="tab-pane" id="financial">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-1" aria-expanded="true" aria-controls="collapseOne"> How to deposit an account?</a> </h4>
+                  </div>
+                  <div id="question3-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body"> Once you make a decision about deposit amount, please, use one of the payment systems which cooperate with the company. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-2" aria-expanded="false" aria-controls="collapseTwo"> What payment systems cooperate with the company?</a> </h4>
+                  </div>
+                  <div id="question3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body"> We cooperate with Perfect Money, Payeer, AdvCash, Bitcoin, Litecoin, Ethereum, Bitcoin Cash , Dash and Dogecoin. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-3" aria-expanded="false" aria-controls="collapseThree"> What is the basis of profit charging?</a> </h4>
+                  </div>
+                  <div id="question3-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> Profit will be charged on your personal account according to the investment plan that was chosen. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-4" aria-expanded="false" aria-controls="collapseThree"> What is the minimum and maximum deposit amount?</a> </h4>
+                  </div>
+                  <div id="question3-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> The minimum deposit amount is $20. Maximum - $100,000. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-5" aria-expanded="false" aria-controls="collapseThree"> What is the minimum withdrawal amount?</a> </h4>
+                  </div>
+                  <div id="question3-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> The minimum withdrawal amount is $2 . </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-6" aria-expanded="false" aria-controls="collapseThree"> Am I able to create several deposits at a time and make profit from two investment plans simultaneously?</a> </h4>
+                  </div>
+                  <div id="question3-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> Yes, you can place money on any number of deposits with a single account and make profit from multiple investment plans. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-7" aria-expanded="false" aria-controls="collapseThree"> Is it possible to place money using one payment system and withdraw them using another?</a> </h4>
+                  </div>
+                  <div id="question3-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> No, you can withdraw money only with the payment system that was used to place them on deposit. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-8" aria-expanded="false" aria-controls="collapseThree"> Am I able to request the deposit withdrawal before the end of investment period?</a> </h4>
+                  </div>
+                  <div id="question3-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> No. The deposit can be withdrawn only after the end of investment period which is specified in the investment plan that was chosen. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-9" aria-expanded="false" aria-controls="collapseThree"> How quickly can the request of the money withdrawal be processed?</a> </h4>
+                  </div>
+                  <div id="question3-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> All payments request be process instantly and automatically </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-10" aria-expanded="false" aria-controls="collapseThree"> Do you have any hidden fees for money deposit/withdrawal?</a> </h4>
+                  </div>
+                  <div id="question3-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> No, we don't have any hidden fees. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question3-11" aria-expanded="false" aria-controls="collapseThree"> What are the characteristics of the deposits crediting in the crypto-currency system?</a> </h4>
+                  </div>
+                  <div id="question3-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> Bitcoin, Litecoin, Ethereum, Bitcoin Cash and Dash and Dogecoin, being a decentralized system, carries out transactions on the basis of a certain number of confirmations in the blockchain network, which are required so that the transaction was considered complete. Deposits in the gainprolific.com made via crypto-currency system, require a minimum of 3 confirmations before being recorded in the personal account of the investor. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end tab-->
+            <div role="tabpanel" class="tab-pane" id="affiliate">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question4-1" aria-expanded="true" aria-controls="collapseOne"> Do you have an affiliate program?</a> </h4>
+                  </div>
+                  <div id="question4-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body"> Yes, we developed a single-level affiliate program according to which a program beneficiary will be charged with 5% of commission charge from the each of his/her partner deposit amounts. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question4-2" aria-expanded="false" aria-controls="collapseTwo"> Is it possible to make profit from the affiliate program without placing a deposit?</a> </h4>
+                  </div>
+                  <div id="question4-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body"> Yes, you can gain a passive income with no direct investments. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question4-3" aria-expanded="false" aria-controls="collapseThree"> How can I use money which was gained via the affiliate program participation?</a> </h4>
+                  </div>
+                  <div id="question4-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> You can withdraw them or use to invest in a project. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question4-4" aria-expanded="false" aria-controls="collapseThree"> How can I attract new partners?</a> </h4>
+                  </div>
+                  <div id="question4-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> You can use special promotional materials to attract partners. </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question4-5" aria-expanded="false" aria-controls="collapseThree"> Do you pay a referral commission for a deposit from a balance account?</a> </h4>
+                  </div>
+                  <div id="question4-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body"> No. You receive referral commission only for deposits from payment systems. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end tab-->
+          </div>
+                        
+                      
+                
+                </div>	
+            </div>
+        
+        </div>	
+    </section>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="paymentwraps">
+                <div class="paybox"><figure><img src="styles/images/last7.png" alt=""></figure> <h4>Perfect money</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last5.png" alt=""></figure> <h4>bitcoin</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last6.png" alt=""></figure> <h4>litecoin</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last10.png" alt=""></figure> <h4>dogecoin</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last8.png" alt=""></figure> <h4>ethereum</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last2.png" alt=""></figure> <h4>ripple</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last3.png" alt=""></figure> <h4>bitcoin cash</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last9.png" alt=""></figure> <h4>dashcoin</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last4.png" alt=""></figure> <h4>zcash</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last1.png" alt=""></figure> <h4>monero</h4></div>
+                <div class="paybox"><figure><img src="styles/images/last11.png" alt=""></figure> <h4>tether</h4></div>
+                 <div class="paybox"><figure><img src="styles/images/1000.png" alt=""></figure> <h4>payeer</h4></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="foologo">
+                <figure><img src="styles/images/logo.png" alt=""></figure>
+                <p>2022 © GAINPRO All Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <div class="flinkwrap">
+                <div class="flink">
+                  <figure><img src="styles/images/ukcompany.png" alt=""></figure>
+                  <div class="txt">
+                    <h4>USA Company</h4>
+                    <p>13145968</p>
+                  </div>
+                </div>
+                <div class="flink">
+                  <figure><img src="styles/images/dunsicon.png" alt=""></figure>
+                  <div class="txt">
+                    <h4>D-U-N-S Number</h4>
+                    <p>22-76-23-739</p>
+                  </div>
+                </div>
+                <div class="flink">
+                  <figure><img src="styles/images/headeremailicon.png" alt=""></figure>
+                  <div class="txt">
+                    <h4>E-mail</h4>
+                    <p>gainprolificalprofit@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="fotterbottomlinks">
+                <a href="contact.html">Contact us</a>     <a href="about.html">About us</a>        <a href="?a=news">News</a>      <a href="?a=cust&amp;page=antispam">Anit spam</a>     <a href="?a=cust&amp;page=privacy">Privacy Policy</a>     <a href="?a=rules">Terms and Conditions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    
+    
+    
+    <script src="//code.tidio.co/wve74e4gs0zsazz10geicr5j6qnrm0ov.js" async=""></script>
+    
+    
+    
+    <script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 30,
+        loop: true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        navText : ["Previous","Next"],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 2
+          }
+        }
+      })
+    </script>
+    
+    
+    <iframe id="tidio-chat-code" title="Tidio Chat code" style="display: none;"></iframe><div id="tidio-chat"><iframe title="Tidio Chat" id="tidio-chat-iframe" style="display: block; border: none; position: fixed; inset: auto 9px 35px auto; width: 264px; height: 94px; opacity: 1; background: none transparent !important; margin: 0px; max-height: 100vh; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important; border-radius: 47px 30px 47px 47px;"></iframe></div></body></html>
